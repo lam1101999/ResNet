@@ -9,7 +9,7 @@ Usage examples:
     python main.py --model resnet20 resnet32 resnet44 resnet56 resnet110 plain20 plain32 plain44 plain56 plain110 --dataset cifar10 --epochs 100
 
     # All ImageNet models
-    python main.py --model resnet18 resnet34 plain18 plain34 vgg16 vgg16_bn vgg19 vgg19_bn --dataset imagenet --epochs 100 --batch-size 256
+    python main.py --model resnet18 resnet34 resnet50 resnet101 resnet152 plain18 plain34 vgg16 vgg16_bn vgg19 vgg19_bn --dataset imagenet --epochs 100 --batch-size 256
 
     # Resume interrupted run(s) — models already at --epochs are skipped
     python main.py --model resnet56 plain56 --dataset cifar10 --epochs 100 --resume
