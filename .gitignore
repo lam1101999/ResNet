@@ -10,5 +10,5 @@ wheels/
 .venv
 .gitnexus
 
-data/
+/data/
 weights/
